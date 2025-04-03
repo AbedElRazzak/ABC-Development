@@ -32,7 +32,7 @@ const Footer = () => {
                   <Image
                     width={110}
                     height={80}
-                    src="/images/logo/abc-logo-light-v2.png"
+                    src="/images/logo/abc-logo-hd.png"
                     alt="Logo"
                     className="dark:hiddena  dark:invert dark:brightness-0"
                   />
