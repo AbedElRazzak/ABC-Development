@@ -1,3 +1,5 @@
+import { Url } from "next/dist/shared/lib/router/router";
+
 export type Author = {
   name: string;
   image: string;
@@ -16,5 +18,5 @@ export type Blog = {
   author?: Author;
   tags?: string[];
   publishedAt?: string;
-  url?: string;
+  url?: Url | undefined;
 };

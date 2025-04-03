@@ -27,13 +27,13 @@ const BlogItem = ({ blog }: { blog: Blog }) => {
         viewport={{ once: true }}
         className="animate_top rounded-lg bg-white p-4 pb-9 shadow-solid-8 dark:bg-blacksection"
       >
-        <Link href={url} className="relative block aspect-[368/239]" target="_blank">
+        <Link href={url || "#"} className="relative block aspect-[368/239]" target="_blank">
           <Image src={mainImage} alt={title} fill className="rounded-lg"/>
         </Link>
 
         <div className="px-4">
           <h3 className="mb-3.5 mt-7.5 line-clamp-2 inline-block text-lg font-medium text-black duration-300 hover:text-primary dark:text-white dark:hover:text-primary xl:text-itemtitle2">
-            <Link href={url} target="_blank">
+            <Link href={url || "#"} target="_blank">
               {`${title.slice(0, 40)}`}
             </Link>
           </h3>
