@@ -46,7 +46,7 @@ module.exports = {
         metatitle3: ["18px", "26px"],
         metatitle2: ["20px", "32px"],
         para2: ["22px", "35px"],
-        itemtitle: ["26px", "32px"],
+        itemtitle: ["20px", "32px"],
         itemtitle2: ["24px", "32px"],
         hero: ["64px", "58px"],
         sectiontitle3: ["44px", "55px"],
