@@ -14,7 +14,7 @@ export default function DocsPage() {
 
   return (
     <>
-      <section className="pb-16 pt-24 md:pb-20 md:pt-28 lg:pb-24 lg:pt-[15rem]">
+      <section className="pb-16 pt-32 md:pb-20 md:pt-28 lg:pb-24 lg:pt-[15rem]">
         <div className="container mx-auto">
           <div className="-mx-4 flex flex-wrap">
             {/* <div className="w-full px-4 lg:w-1/4">
