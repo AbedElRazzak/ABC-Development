@@ -3,10 +3,10 @@ import { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Docs Page - Solid SaaS Boilerplate",
+  title: "About Page - ABC Development",
 
   // other metadata
-  description: "This is Docs page for Solid Pro"
+  description: "This is About page for ABC Development"
 };
 
 export default function DocsPage() {
