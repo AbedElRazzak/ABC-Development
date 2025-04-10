@@ -53,7 +53,7 @@ const Footer = () => {
                   contact
                 </p>
                 <a
-                  href="mailto:abcdevelopment@gmail.com"
+                  href="mailto:abc.development.lb@outlook.com"
                   className="text-itemtitle font-medium text-black dark:text-white"
                 >
                   abc.development.lb@outlook.com
